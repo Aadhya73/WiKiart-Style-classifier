@@ -1,0 +1,32 @@
+﻿# Python and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# Dataset and generated image data
+data/
+dataset/
+datasets/
+prepared_data/
+processed_data/
+pip-cache/
+temp/
+*.parquet
+
+# Model weights and checkpoints
+models/
+*.keras
+*.h5
+*.hdf5
+checkpoints/
+logs/
+
+# Archives and generated files
+*.zip
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db
